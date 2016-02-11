@@ -11,6 +11,7 @@
 
 ;; Various preferences
 (setq org-log-done t
+	  org-startup-truncated nil
       org-completion-use-ido t
       org-edit-timestamp-down-means-later t
       org-archive-mark-done nil
@@ -80,7 +81,6 @@ typical word processor."
       (visual-line-mode -1))))
 
 ;;(add-hook 'org-mode-hook 'buffer-face-mode)
-
 
 (setq org-support-shift-select t)
 

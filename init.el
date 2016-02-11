@@ -158,6 +158,7 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
 (provide 'init)
 
