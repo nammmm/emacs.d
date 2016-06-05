@@ -19,8 +19,13 @@
       org-fast-tag-selection-single-key 'expert
       org-html-validation-link nil
       org-export-kill-product-buffer-when-displayed t
+      org-ellipsis "⤵"
+      org-src-fontify-natively t
       org-tags-column 80)
 
+;; Org-bullets mode
+(require-package 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;; Lots of stuff from http://doc.norang.ca/org-mode.html
 
