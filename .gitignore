@@ -1,4 +1,4 @@
-/README.md
+README.md
 /auto-save-list
 /elpa
 site-lisp/package/
@@ -6,7 +6,8 @@ site-lisp/package/
 /ditaa*.jar
 /histor
 /ido.last
-/LICENSE
+LICENSE
 /org-clock-save.el
 /recentf
 .DS_Store
+/ac-comphist.dat
